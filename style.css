@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(0, 153, 255, 0.874);
+  color: rgb(215, 215, 215);
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(215, 215, 215);
+  height: 50px;
+  padding: 25px;
+  text-align: center;
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+}
+
+footer li {
+  background-color: rgb(215, 215, 215);
+  display: inline-block;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
