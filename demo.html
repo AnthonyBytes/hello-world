@@ -25,13 +25,49 @@
       Text about our store and what we are about... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
     </p>
   </section>
+  
+  <section>
+    <p class="user"> 
+    <script language="javascript">
+      alert ('Welcome to the hat shop! Please answer the following questions for a personalized shopping experience'); 
+
+      let userName = prompt ('What is your name?');
+      let sports = prompt ('Do you like sports?');
+      let noCap = prompt ('Do you know what no cap means?');
+
+      document.write('Hello ' + userName + '!');
+
+      if (sports == 'yes'){
+        document.write(' Since you like sports');
+      } else {
+        document.write(' Since you do not like sports');
+      }
+
+      if (noCap == 'yes'){
+        document.write(' and you know what no cap means,');
+      } else {
+        document.write(' and you do not know what no cap means,');
+      }
+
+      if (sports === noCap){
+        document.write(' we recommend baseball hats!');
+      } else if (sports !== noCap) {
+        document.write(' we recommend fishing hats!');
+      } else {
+        document.write(' we recommend bowler hats!');
+      }
+
+    </script>
+    </p>
+  </section>
+  
   <section>
     <img src="https://i.pinimg.com/originals/82/84/e2/8284e2a63568352cdcf93ee2108bb72f.jpg">
-    <p>Baseball Hats</p>
+    <p><a href="baseballhats">Baseball Hats</a></p>
     <img src="https://assets.wired2fish.com/uploads/2023/06/best-fishing-hats.webp">
-    <p>Fishing Hats</p>
+    <p><a href='fishinghats'>Fishing Hats</a></p>
     <img src="https://i.etsystatic.com/7512343/r/il/49f45f/1948575509/il_fullxfull.1948575509_6nh4.jpg">
-    <p>Bowler Hats</p>
+    <p><a href='bowlerhats'>Bowler Hats</a></p>
   </section>
   <footer>
     <ul>
