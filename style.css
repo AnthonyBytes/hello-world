@@ -30,11 +30,20 @@ footer {
 }
 
 footer li {
-  background-color: rgb(215, 215, 215);
   display: inline-block;
 }
 
 img {
   width: 200px;
   height: 200px;
+}
+
+.user {
+  background-color: rgb(215, 215, 215);
+  color: black;
+  font-size: 25px;
+}
+
+section {
+  text-align: center;
 }
