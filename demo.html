@@ -9,6 +9,12 @@
 </head>
 <body>
   <header>
+    <script>
+      alert ('Welcome to the hat shop! Please answer the following questions for a personalized shopping experience'); 
+      let theirName = getName();
+      let likeSports = sports();
+      let knowCap = noCap();
+    </script>
     <h1>The Hat Store</h1>
     <nav>
       <img src="https://cdn.inksoft.com/images/products/14782/products/18-772/Royal/front/Original.png?decache=637926958551200000" alt="a blue hat representing The Hat Store logo">
@@ -29,35 +35,37 @@
   
   <section>
     <p class="user">
-    <script language="javascript">
+     <script language="javascript">
+      
+      greetUser(theirName);
+      sports2(likeSports);
+      noCap2(knowCap);
 
-      alert ('Welcome to the hat shop! Please answer the following questions for a personalized shopping experience'); 
+      //let userName = prompt ('What is your name?');
+      //let sports = prompt ('Do you like sports?');
+      //let noCap = prompt ('Do you know what no cap means?');
 
-      let userName = prompt ('What is your name?');
-      let sports = prompt ('Do you like sports?');
-      let noCap = prompt ('Do you know what no cap means?');
+      //document.write('Hello ' + userName + '!');
 
-      document.write('Hello ' + userName + '!');
+      //if (sports == 'yes'){
+        //document.write(' Since you like sports');
+      //} else {
+        //document.write(' Since you do not like sports');
+      //}
 
-      if (sports == 'yes'){
-        document.write(' Since you like sports');
-      } else {
-        document.write(' Since you do not like sports');
-      }
+      //if (noCap == 'yes'){
+        //document.write(' and you know what no cap means,');
+      //} else {
+        //document.write(' and you do not know what no cap means,');
+      //}
 
-      if (noCap == 'yes'){
-        document.write(' and you know what no cap means,');
-      } else {
-        document.write(' and you do not know what no cap means,');
-      }
-
-      if (sports === noCap){
-        document.write(' we recommend baseball hats!');
-      } else if (sports !== noCap) {
-        document.write(' we recommend fishing hats!');
-      } else {
-        document.write(' we recommend bowler hats!');
-      }
+      //if (sports === noCap){
+        //document.write(' we recommend baseball hats!');
+      //} else if (sports !== noCap) {
+        //document.write(' we recommend fishing hats!');
+      //} else {
+        //document.write(' we recommend bowler hats!');
+      //}
 
     </script>
     </p>
